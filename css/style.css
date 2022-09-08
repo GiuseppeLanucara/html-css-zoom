@@ -5,9 +5,20 @@
 }
 
 .container {
-   
+   position: relative;
     width: 100%;
     height: 100vh;
+}
+
+.speaker{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    color: white;
+    background-color: grey;
+    padding: 3px;
+    border-radius: 4px;
+
 }
 
 img{
@@ -46,7 +57,7 @@ img{
 }
 
 .col{
-    width: calc(100% / 7);
+    width: calc(100% / 7 -10px);
     position: relative;
     
 }
