@@ -16,7 +16,7 @@ img{
 
 .users-container{
     width: 80%;
-    height: calc(100% - 200px);
+    height: calc(100% - 50px);
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -28,16 +28,17 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: calc(100% / 7 -10px);
+    width: calc(100% / 7 -10px); 
+
 }
 
 .col{
-    margin-bottom: 10px;
+    height: 140px;
+    
 }
 
 .toolbar{
     width: 100%;
     height: 50px;
     background-color: grey;
-    margin-bottom: 0;
 }
