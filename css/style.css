@@ -64,7 +64,7 @@ ul{
 
 ul li{
     list-style-type: none;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 ul li a{
@@ -155,4 +155,8 @@ footer{
     background-color: grey;
     color: red;
     border: none;
+}
+
+i{
+    display: inline-block;
 }
